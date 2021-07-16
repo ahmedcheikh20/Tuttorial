@@ -1,0 +1,17 @@
+.body{
+    grid-template-areas: hd hd hd
+                         mn mn mn
+                         ft ft ft
+}
+
+.header{
+    grid-area: hd;
+}
+
+.main{
+    grid-area: mn;
+}
+
+.footer{
+    grid-area: ft;
+}
